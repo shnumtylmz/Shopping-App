@@ -1,0 +1,33 @@
+.category-sidebar {
+  width: 80%;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-right: 1px solid #ddd;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.category-sidebar h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+.category-sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.category-sidebar li {
+  margin-bottom: 10px;
+}
+
+.category-sidebar a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+}
+
+.category-sidebar a:hover {
+  text-decoration: underline;
+}

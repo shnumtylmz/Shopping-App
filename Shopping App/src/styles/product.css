@@ -1,0 +1,82 @@
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+}
+
+.product-list {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-item {
+  border: 1px solid #ddd;
+  padding: 16px;
+  border-radius: 10px;
+  width: calc(33.333% - 20px); /* 3 ürün satır için */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-img {
+  max-width: 100%;
+  height: 190px;
+  object-fit: cover;
+}
+
+.product-item h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.product-item p {
+  margin: 5px 0;
+}
+
+.product-item strong {
+  font-size: 20px;
+}
+
+.product-item button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.product-item button:hover {
+  background-color: #0056b3;
+}
+
+.product-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-btn a {
+  text-decoration: none;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.product-btn a:hover {
+  text-decoration: underline;
+}
